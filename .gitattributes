@@ -1,0 +1,4 @@
+* text=auto
+
+# Try to make notebooks mergeable (consider using nbdime for robust merges)
+*.ipynb merge=union

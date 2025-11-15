@@ -1,0 +1,65 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_hidden
+
+# Environment / secrets
+.env
+.env.* 
+secrets.toml
+
+# Caches, data, models, indices
+*.pkl
+*.sqlite
+*.db
+faiss_index*
+*.index
+*.npy
+
+# Logs and reports
+*.log
+*.csv
+reports/
+logs/
+
+# Selenium / webdriver / browser downloads
+chromedriver*
+geckodriver*
+*.crdownload
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# node
+node_modules/
+
+# Coverage
+htmlcov/
+.coverage
+
+# macOS
+*.DS_Store
